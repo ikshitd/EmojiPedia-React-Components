@@ -1,6 +1,11 @@
 import React from "react"; 
 import ReactDOM from "react-dom"; 
 
+const customStyling = {
+	display: "inline-block", 
+	height: "30px", 
+}; 
+
 const Entry = (props) => {
 	return (
 	<div>
